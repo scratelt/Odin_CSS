@@ -1,0 +1,198 @@
+/* Navigation Bar */
+
+
+.firstDiv {
+    display: flex;
+    background-color: #1F2937;
+    height: 150px;
+    align-items: flex-start;
+
+}
+
+.grayText {
+    color: #E5E7EB;
+    display: flex;
+    gap: 18px;
+    justify-content: flex-end;
+    position: absolute;
+    right: 400px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+}
+
+.headerLogo {
+    padding-left: 400px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    
+
+}
+
+/* This website is awesome sign-up and picture */
+
+.secondDiv {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+.awesome {
+    flex: 1;
+    justify-content: center;
+    max-width: 700px;
+    margin-bottom: 20px;
+    align-items: center;
+    height: 400px;
+    margin-left: 400px;
+    max-width: 450px;
+    
+}
+
+.placeHolderImage {
+    flex: 1;
+    justify-content: start;
+}
+
+#thisWebsiteIsAwesome {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+#awesomeText {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.button1 {
+    color: white;
+    background-color: #3882F6;
+    max-width: 400px;
+    max-height: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+
+}
+
+/* Some random info with four pictures */
+
+.thirdDiv {
+    display: flex;
+    background-color: #EFE7EB;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+.fourPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.bluePic {
+    height: 175px;
+    width: 175px;
+    border: solid 4px #3882F6;
+    border-radius: 20px;
+    
+}
+
+
+.picText {
+    width: 95px;
+    word-wrap: break-word;
+}
+
+.someRandom {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/* Thor quote */
+
+.fourthDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #E5E7EB;
+    
+}
+
+.blockQuote {
+    font-style: light;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 20px;
+    max-width: 800px;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Call to action footer */
+
+.footerDivOuter {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footerDivInner {
+    color: white;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+}
+
+.innerInnerFooter {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+
+.button2 {
+    max-height: 30px;
+    align-self: center;
+    margin: 50px;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
